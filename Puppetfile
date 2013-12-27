@@ -52,12 +52,6 @@ github "ruby",       "6.7.2"
 github "stdlib",     "4.1.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",       "1.0.0"
 github "xquartz",    "1.1.0"
-
+github "skype",      "1.0.2"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
-
-
-# custom
-# github “firefox”,    “1.1.7”
-# github “python”, “1.3.0”
-# github “sublime_text_2”,    “1.1.0”
