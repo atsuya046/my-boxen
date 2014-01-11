@@ -10,6 +10,9 @@ class people::atsuya046 {
 	include vagrant
 	include mongodb
 	include mysql
+	include jenkins
+	include evernote
+	include gimp
 
 	package {
 		[
@@ -26,6 +29,12 @@ class people::atsuya046 {
 	package { 'AndroidStudio':
 		source => "http://dl.google.com/android/studio/install/0.3.2/android-studio-bundle-132.893413-mac.dmg",
 		provider => appdmg;
+	}
+
+	package { 'Android SDK with Eclipse':
+		source => "http://dl.google.com/android/adt/adt-bundle-mac-x86_64-20131030.zip",
+		provider => compressed_app;
+
 	}
 
 	vagrant::plugin { 'vagrant-vmware-fusion':

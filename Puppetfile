@@ -57,11 +57,14 @@ github "python",     "1.3.0"
 github "vagrant",    "3.0.2"
 github "mongodb",    "1.2.0"
 github "mysql",      "1.2.0"
+github "jenkins",    "0.0.7"
 github "skype",      "1.0.2"
+github "evernote",   "2.0.4"
 github "firefox",    "1.1.7"
 github "sublime_text_2", "1.1.2"
 github "chrome",     "1.1.2"
 github "dropbox",    "1.2.0"
+github "gimp",       "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
